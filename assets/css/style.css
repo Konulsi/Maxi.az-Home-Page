@@ -67,4 +67,41 @@ a {
 }
 .right .az-ru a:nth-child(2) {
   opacity: 0.7;
+}
+
+#phone-header .box {
+  margin-top: 20px;
+}
+#phone-header .box i {
+  color: black;
+  font-size: 20px;
+}
+#phone-header .box .left .phone {
+  margin-left: 20px;
+}
+#phone-header .box .center .logo {
+  width: 100px;
+}
+#phone-header .box .center .logo img {
+  width: 100px;
+}
+#phone-header .box .right .search {
+  margin-right: 20px;
+}
+
+#down .left {
+  display: flex;
+  align-items: center;
+}
+#down .left .search {
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+#down .left .search input {
+  border: none;
+}
+#down .left .search button {
+  border: none;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */

@@ -14,9 +14,6 @@ a {
     }
 }
 
-
-
-
 .navbar {
     width: 750px;
 
@@ -26,7 +23,6 @@ a {
         margin-top: 3px;
 
         li {
-
             transition: 0.4s;
 
             &:first-child {
@@ -37,7 +33,6 @@ a {
 
             &:not(:last-child) {
                 margin-right: 15px;
-
             }
 
             a {
@@ -55,43 +50,121 @@ a {
 
 
 
-.right{
-
+.right {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    .call-back{
+
+    .call-back {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         margin-left: 70px;
-        a{
+
+        a {
             color: #232222;
-        font-weight: bold;
-        font-size: 32px;
-        font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 32px;
+            font-family: Arial, Helvetica, sans-serif;
         }
-    
-        .call-inform{
+
+        .call-inform {
             margin-left: 10px;
             font-size: 12px;
             font-family: Arial, Helvetica, sans-serif;
         }
     }
-    
-    .az-ru{
-        a{
+
+    .az-ru {
+        a {
             color: black;
             opacity: 1;
 
-            &:nth-child(2){
-
-                
-                    opacity: 0.7;
-                
+            &:nth-child(2) {
+                opacity: 0.7;
             }
         }
-       
-    
     }
+}
+
+
+
+
+#phone-header {
+    .box {
+        margin-top: 20px;
+
+        i {
+            color: black;
+            font-size: 20px;
+        }
+
+        .left {
+
+            .phone {
+                margin-left: 20px;
+            }
+
+        }
+
+        .center {
+
+            .logo {
+                width: 100px;
+
+                img {
+                    width: 100px;
+                }
+            }
+
+        }
+
+
+
+        .right {
+            .search {
+                margin-right: 20px;
+
+            }
+        }
+    }
+
+
+
+}
+
+
+#down {
+
+    .left {
+
+
+        display: flex;
+        align-items: center;
+        .menu-button {}
+
+        .search {
+            border: 1px solid;
+            display: flex;
+            justify-content: space-between;
+
+            input {
+                border: none;
+            }
+
+            button {
+                border: none;
+                background-color: white;
+            }
+        }
+
+
+
+
+
+
+    }
+
+
+
 }
