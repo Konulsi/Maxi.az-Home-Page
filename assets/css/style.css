@@ -1,15 +1,23 @@
 #up {
-  margin-top: 25px;
+  margin-top: 22px;
+}
+
+body {
+  height: 3000px;
 }
 
 a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .logo {
   width: 150px;
 }
-.logo img {
+.logo a img {
   width: 100%;
 }
 
@@ -18,7 +26,6 @@ a {
 }
 .navbar ul {
   list-style: none;
-  margin-left: 10px;
   margin-top: 3px;
 }
 .navbar ul li {
@@ -33,6 +40,8 @@ a {
 .navbar ul li a {
   color: #53595c;
   font-size: 15px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
   opacity: 1;
 }
 .navbar ul li:hover {
@@ -89,19 +98,110 @@ a {
   margin-right: 20px;
 }
 
+#down {
+  background-color: #3C3F42;
+  margin-top: 15px;
+}
 #down .left {
+  height: 64px;
   display: flex;
   align-items: center;
 }
+#down .left .menu {
+  background-color: #232222;
+  padding: 20px;
+  width: 310px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#down .left .menu .menu-button i {
+  font-size: 25px;
+  color: white;
+}
+#down .left .menu .catalog {
+  margin-left: 20px;
+}
+#down .left .menu .catalog span {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
 #down .left .search {
+  width: 590px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
   border: 1px solid;
+  margin-left: 6px;
   display: flex;
   justify-content: space-between;
 }
 #down .left .search input {
+  outline: none;
   border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 #down .left .search button {
   border: none;
   background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#down .right {
+  margin-left: 25px;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#down .right .enter-account {
+  display: flex;
+  justify-content: center;
+}
+#down .right .enter-account a {
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+}
+#down .right .enter-account a i {
+  font-size: 18px;
+  color: white;
+}
+#down .right .enter-account span {
+  margin-left: 10px;
+  font-size: 16px;
+  color: white;
+}
+#down .right .icons {
+  width: 110px;
+  display: flex;
+  justify-content: space-around;
+}
+#down .right .icons a i {
+  font-size: 20px;
+  color: white;
+}
+
+#menu .slider-menu ul {
+  padding-left: 15px;
+}
+#menu .slider-menu ul li a {
+  font-size: 14px;
+}
+#menu .slider-menu ul li a i {
+  font-size: 14px;
+}
+#menu .slider-menu ul li a i:nth-child(3) {
+  margin-left: 45px;
+  font-size: 10px;
+  text-align: end;
+}
+#menu .slider-menu ul li a img {
+  width: 20px;
+  height: 25px;
 }/*# sourceMappingURL=style.css.map */

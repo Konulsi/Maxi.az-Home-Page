@@ -1,17 +1,29 @@
 #up {
-    margin-top: 25px;
+    margin-top: 22px;
+}
+
+body{
+height: 3000px;
 }
 
 a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
+
 .logo {
     width: 150px;
-
-    img {
-        width: 100%;
+    a{
+        img {
+            width: 100%;
+        }
     }
+
+   
 }
 
 .navbar {
@@ -19,7 +31,6 @@ a {
 
     ul {
         list-style: none;
-        margin-left: 10px;
         margin-top: 3px;
 
         li {
@@ -38,6 +49,8 @@ a {
             a {
                 color: #53595c;
                 font-size: 15px;
+                font-weight: 400;
+                font-family: Arial, Helvetica, sans-serif;
                 opacity: 1;
             }
 
@@ -51,6 +64,7 @@ a {
 
 
 .right {
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -108,7 +122,6 @@ a {
         }
 
         .center {
-
             .logo {
                 width: 100px;
 
@@ -116,10 +129,7 @@ a {
                     width: 100px;
                 }
             }
-
         }
-
-
 
         .right {
             .search {
@@ -129,40 +139,156 @@ a {
         }
     }
 
-
-
 }
 
 
 #down {
+    background-color: #3C3F42;
+    margin-top: 15px;
+   
 
     .left {
-
-
+        height: 64px;
         display: flex;
         align-items: center;
-        .menu-button {}
 
-        .search {
-            border: 1px solid;
+        .menu {
+            background-color: #232222;
+            padding: 20px;
+            width: 310px;
+            height: 100%;
             display: flex;
-            justify-content: space-between;
+            align-items: center;
 
-            input {
-                border: none;
+            .menu-button {
+                i {
+                    font-size: 25px;
+                    color: white;
+                }
             }
 
-            button {
-                border: none;
-                background-color: white;
+            .catalog {
+                margin-left: 20px;
+
+                span {
+                    font-size: 16px;
+                    color: #FFFFFF;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
             }
         }
 
 
 
+        .search {
+            width: 590px;
+            height: 40px;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid;
+            margin-left: 6px;
+            display: flex;
+            justify-content: space-between;
+
+            input {
+                outline: none;
+                border: none;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+
+            button {
+                border: none;
+                background-color: white;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+
+    }
+
+
+    .right {
+        margin-left: 25px;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .enter-account {
+            display: flex;
+            justify-content: center;
+
+            a {
+                border: 2px solid white;
+                border-radius: 50%;
+                text-align: center;
+                padding: 4px;
+                width: 30px;
+                height: 30px;
+
+                i {
+                    font-size: 18px;
+                    color: white;
+                }
+            }
+
+            span {
+                margin-left: 10px;
+                font-size: 16px;
+                color: white;
+            }
+        }
+
+        .icons {
+            width: 110px;
+            display: flex;
+            justify-content: space-around;
+
+            a {
+                i {
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
 
 
 
+
+#menu {
+
+    .slider-menu {
+
+        ul {
+            padding-left: 15px;
+            li {
+                a {
+                    font-size: 14px;
+                    i {
+                        font-size: 14px;
+                        &:nth-child(3){
+                            margin-left: 45px;
+                        font-size: 10px;
+
+                            text-align: end;
+                        }
+    
+                    }
+
+
+                    img {
+                        width: 20px;
+                        height: 25px;
+                    }
+
+                }
+
+
+            }
+        }
     }
 
 
