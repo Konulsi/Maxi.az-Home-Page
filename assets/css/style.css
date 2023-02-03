@@ -188,10 +188,14 @@ ul {
 }
 
 #menu .slider-menu ul {
+  margin-top: 13px;
   padding-left: 15px;
 }
 #menu .slider-menu ul li a {
   font-size: 14px;
+  color: #3C3F42;
+  display: flex;
+  justify-content: space-between;
 }
 #menu .slider-menu ul li a i {
   font-size: 14px;
@@ -200,6 +204,12 @@ ul {
   margin-left: 45px;
   font-size: 10px;
   text-align: end;
+}
+#menu .slider-menu ul li a span {
+  flex: auto;
+}
+#menu .slider-menu ul li a .span1 {
+  color: #ec2127;
 }
 #menu .slider-menu ul li a img {
   width: 20px;
